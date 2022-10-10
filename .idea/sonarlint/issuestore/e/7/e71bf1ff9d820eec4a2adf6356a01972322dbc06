@@ -1,0 +1,8 @@
+
+nkotlin:S100("RRename function "node test" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(ÉŒ¦øÿÿÿÿ
+ykotlin:S1002"]Rename function "create and issue NFT" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(Éß³Âşÿÿÿÿ
+xkotlin:S100M"\Rename function "issue fiat currency" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(ˆêÆùÿÿÿÿ
+lkotlin:S100]"PRename function "buy nft" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(‚¸ÓÙıÿÿÿÿ
+kotlin:S100€"hRename function "buy nft with insufficient funds" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(•İ¸
+bkotlin:S11926"JDefine a constant instead of duplicating this literal "Bored Ape" 3 times.(Ø§ß
+@kotlin:S1874	"#Deprecated code should not be used.(èŠôÙıÿÿÿÿ

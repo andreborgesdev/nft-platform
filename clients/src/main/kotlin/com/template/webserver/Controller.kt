@@ -1,0 +1,27 @@
+package com.template.webserver
+
+import com.template.flows.NFTSignFlowInitiator
+import net.corda.core.messaging.startFlow
+import org.slf4j.LoggerFactory
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RestController
+
+/**
+ * Define your API endpoints here.
+ */
+@RestController
+@RequestMapping("/") // The paths for HTTP requests are relative to this base path.
+class Controller(rpc: NodeRPCConnection) {
+
+    companion object {
+        private val logger = LoggerFactory.getLogger(RestController::class.java)
+    }
+
+    private val proxy = rpc.proxy
+
+    @GetMapping(value = ["/nftSign"], produces = ["text/plain"])
+    private fun templateendpoint(): Void {
+        proxy.startFlow { NFTSignFlowInitiator }
+    }
+}
